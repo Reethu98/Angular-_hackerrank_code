@@ -1,0 +1,46 @@
+{
+  "name": "angular-product-registration-form-success-message",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "setup": "npm install",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "hackerrank:install": "npm install --silent",
+    "hackerrank:run": "ng serve --disable-host-check --host 0.0.0.0 --port 8000",
+    "hackerrank:test": "ng test --browsers ChromeHeadless_NoSandbox"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^14.2.0",
+    "@angular/common": "^14.2.0",
+    "@angular/compiler": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/forms": "^14.2.0",
+    "@angular/platform-browser": "^14.2.0",
+    "@angular/platform-browser-dynamic": "^14.2.0",
+    "@angular/router": "^14.2.0",
+    "h8k-components": "^1.0.0",
+    "h8k-design": "^1.0.16",
+    "rxjs": "~7.5.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^14.2.10",
+    "@angular/cli": "~14.2.10",
+    "@angular/compiler-cli": "^14.2.0",
+    "@faker-js/faker": "^7.6.0",
+    "@types/jasmine": "~4.0.0",
+    "jasmine-core": "~4.3.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-junit-reporter": "~2.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "puppeteer": "~19.7.1",
+    "typescript": "~4.7.2"
+  }
+}
